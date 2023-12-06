@@ -29,10 +29,10 @@ export class Form extends Component {
         return (
             <form className={css.form} onSubmit={this.handleSubmit}>
                 <label>Name <br />
-                    <input type="text" name="name" value={name} required onChange={this.handleChange}/>
+                    <input className={css.input} type="text" name="name" value={name} required onChange={this.handleChange}/>
                 </label>
                 <label>Phone number <br />
-                    <input type="tel" name="number" value={number} required onChange={this.handleChange}/>
+                    <input className={css.input} type="tel" name="number" value={number} required onChange={this.handleChange}/>
                 </label>
                 <button className={css.button } type="submit">Add contact</button>
             </form>
