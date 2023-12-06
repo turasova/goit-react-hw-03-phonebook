@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.button {
+    width: 100px;
+    margin-top: 30px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.button:hover,
+.button:focus {
+    background-color: lightblue;
+}

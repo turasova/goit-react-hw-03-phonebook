@@ -1,0 +1,8 @@
+.filterInput{
+    margin-left: 30px;
+}
+.filterField {
+    margin-left: 30px;
+    border-color: blue;
+    border-radius: 4px;
+}
